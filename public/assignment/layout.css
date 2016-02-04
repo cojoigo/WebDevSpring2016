@@ -19,6 +19,12 @@
 }
 
 /*
+ * So navbar won't overlay content
+ */
+
+body { padding-top: 70px; }
+
+/*
  * Sidebar
  */
 
@@ -77,22 +83,16 @@
     margin-top: 0;
 }
 
-
 /*
- * Placeholder dashboard ideas
+ * Styles for glyphicon scaling
  */
 
-.placeholders {
-    margin-bottom: 30px;
+.big {
+    font-size:1.5em;
     text-align: center;
 }
-.placeholders h4 {
-    margin-bottom: 0;
-}
-.placeholder {
-    margin-bottom: 20px;
-}
-.placeholder img {
-    display: inline-block;
-    border-radius: 50%;
+
+.small {
+    font-size:0.8em;
+    text-align: center;
 }
