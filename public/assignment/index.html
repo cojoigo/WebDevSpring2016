@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="FormBuilderApp">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js."></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.0/angular.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.js"></script>
+
+  <script src="app.js"></script>
+  <script src="config.js"></script>
+  <script src="views/main/main.controller.js"></script>
+  <script src="views/home/home.controller.js"></script>
+  <script src="views/header/header.controller.js"></script>
+  <script src="views/sidebar/sidebar.controller.js"></script>
+
+  <link href="layout.css" rel="stylesheet">
+</head>
+<body ng-controller="MainController">
+  <div ng-include src="'views/header/header.view.html'">
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div ng-include src="'views/sidebar/sidebar.view.html'">
+      </div>
+      <div ng-view>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
