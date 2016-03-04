@@ -3,25 +3,29 @@
         .module("FormBuilderApp")
         .config(function($routeProvider){
             $routeProvider
-                .when("/", {
-                    templateUrl: "views/home/home.view.html",
-                    controller: "HomeController"
+                .when("/home", {
+                    templateUrl: "views/home/home.view.html"
+                    //controller: "HomeController"
                 })
                 .when("/profile", {
                     templateUrl: "views/users/profile.view.html",
-                    controller: "ProfileController"
+                    controller: "ProfileController",
+                    controllerAs: "model"
                 })
                 .when("/login", {
                     templateUrl: "views/users/login.view.html",
-                    controller: "LoginController"
+                    controller: "LoginController",
+                    controllerAs: "model"
                 })
                 .when("/register", {
                     templateUrl: "views/users/register.view.html",
-                    controller: "RegisterController"
+                    controller: "RegisterController",
+                    controllerAs: "model"
                 })
                 .when("/forms", {
                     templateUrl: "views/forms/forms.view.html",
-                    controller: "FormsController"
+                    controller: "FormController",
+                    controllerAs: "model"
                 })
                 .when("/form-fields", {
                     templateUrl: "views/forms/form-fields.view.html",
@@ -32,7 +36,7 @@
                     controller: "AdminController"
                 })
                 .otherwise({
-                    redirectTo: "/"
+                    redirectTo: "/home"
                 });
         });
 })();

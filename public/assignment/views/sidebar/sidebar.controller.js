@@ -1,9 +1,17 @@
 (function(){
     angular
         .module("FormBuilderApp")
-        .controller("SidebarController", SidebarController);
+        .controller("SidebarController", ['UserService', '$location', SidebarController]);
 
-    function SidebarController($scope, $location) {
-        $scope.$location = $location;
+    function SidebarController(UserService, $location) {
+
+        var vm = this;
+
+        function init() {
+            vm.$location = $location;
+            vm.user = UserService.getCurrentUser();
+        }
+
+        init();
     }
 })();
