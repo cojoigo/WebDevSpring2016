@@ -63,7 +63,7 @@
         }
 
         function clickForm(form){
-            $location.path('/form-fields/'+form._id);
+            $location.path('/form/'+form._id+'/fields');
         }
     }
 })();

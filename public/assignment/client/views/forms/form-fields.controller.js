@@ -2,30 +2,40 @@
 {
     angular
         .module("FormBuilderApp")
-        .controller("FormFieldsController", ['FieldService', 'FormService', '$routeParams', '$location',  FormFieldsController]);
+        .controller("FormFieldsController", ['FieldService', '$routeParams', '$location',  FormFieldsController]);
 
-    function FormFieldsController(FieldService, FormService, $routeParams, $location)
+    function FormFieldsController(FieldService, $routeParams, $location)
     {
         var vm = this;
         var formId = $routeParams.formId;
         vm.addField = addField;
         vm.removeField = removeField;
+        vm.editField = editField;
 
         function init(){
             FieldService.getFieldsForForm(formId)
                 .then(function(fieldList) {
                     vm.fields = fieldList.data;
-                    $location.path('/form-fields/'+formId);
+                    $location.path('/form/'+formId+'/fields');
                 });
         }
         init();
+
+        function editField(field){
+            FieldService.updateField(formId,field._id,field);
+            FieldService.getFieldsForForm(formId)
+                .then(function(fieldList) {
+                    vm.fields = fieldList.data;
+                    $location.path('/form/'+formId+'/fields');
+                });
+        }
 
         function removeField(field){
             FieldService.deleteFieldFromForm(formId, field._id);
             FieldService.getFieldsForForm(formId)
                 .then(function(fieldList) {
                     vm.fields = fieldList.data;
-                    $location.path('/form-fields/'+formId);
+                    $location.path('/form/'+formId+'/fields');
                 });
         }
 
@@ -69,7 +79,7 @@
             FieldService.getFieldsForForm(formId)
                 .then(function(fieldList) {
                     vm.fields = fieldList.data;
-                    $location.path('/form-fields/'+formId);
+                    $location.path('/form/'+formId+'/fields');
                 });
         }
 
