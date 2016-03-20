@@ -12,5 +12,7 @@
     <orderEntry type="library" name="angular" level="application" />
     <orderEntry type="library" name="jquery-1.11.3" level="application" />
     <orderEntry type="library" name="jquery-2.2.1" level="application" />
+    <orderEntry type="library" name="jquery-ui" level="application" />
+    <orderEntry type="library" name="sortable" level="application" />
   </component>
 </module>

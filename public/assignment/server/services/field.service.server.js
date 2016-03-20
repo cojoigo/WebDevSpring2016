@@ -16,7 +16,7 @@ module.exports = function(app, model) {
         var fieldId = req.params.fieldId;
         var form = model.findFormById(formId);
         for (var i in form.fields){
-            if (form.fields[i]._id === fieldId){
+            if (form.fields[i]._id === Number(fieldId)){
                 res.json(form.fields);
             }
         }
@@ -26,8 +26,10 @@ module.exports = function(app, model) {
         var formId = req.params.formId;
         var fieldId = req.params.fieldId;
         var form = model.findFormById(formId);
+        console.log(formId+" "+fieldId);
         for (var i in form.fields){
-            if (form.fields[i]._id === fieldId){
+            if (form.fields[i]._id === Number(fieldId)){
+                console.log("found a form"+form.fields[i]);
                 form.fields.splice(i,1);
             }
         }
@@ -39,6 +41,8 @@ module.exports = function(app, model) {
         var formId = req.params.formId;
         var field = req.body;
         var form = model.findFormById(formId);
+        field._id = (new Date).getTime();
+        console.log(field._id+" created field");
         form.fields.push(field);
         model.updateForm(formId, form);
         res.json(form.fields);

@@ -11,6 +11,7 @@
         vm.updateForm = updateForm;
         vm.deleteForm = deleteForm;
         vm.selectForm = selectForm;
+        vm.clickForm = clickForm;
         vm.updating = 1;
 
         function init(){
@@ -59,6 +60,10 @@
             vm.selectedFormIndex = index;
             vm.newForm = vm.forms[index];
             vm.updating = 0;
+        }
+
+        function clickForm(form){
+            $location.path('/form-fields/'+form._id);
         }
     }
 })();

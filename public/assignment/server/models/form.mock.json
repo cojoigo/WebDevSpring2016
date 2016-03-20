@@ -19,5 +19,21 @@
       {"_id": "888", "label": "Description", "type": "TEXTAREA", "placeholder": "Title"},
       {"_id": "999", "label": "Due Date", "type": "DATE"}
     ]
+  },
+  {"_id": "020", "title": "Test", "userId": 123,
+    "fields":
+    [
+      {"_id": 1234, "label": "New Checkboxes", "type": "CHECKBOXES", "options": [
+        {"label": "Option A", "value": "OPTION_A"},
+        {"label": "Option B", "value": "OPTION_B"},
+        {"label": "Option C", "value": "OPTION_C"}
+      ]},
+      {"_id": 2345, "label": "New Radio Buttons", "type": "RADIOS", "options": [
+        {"label": "Option X", "value": "OPTION_X"},
+        {"label": "Option Y", "value": "OPTION_Y"},
+        {"label": "Option Z", "value": "OPTION_Z"}
+      ]},
+      {"_id": 3456, "label": "Test", "type": "DATE"}
+    ]
   }
 ]
