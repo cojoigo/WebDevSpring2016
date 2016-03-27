@@ -25,7 +25,11 @@
   "dependencies": {
     "angular-ui-sortable": "^0.13.4",
     "body-parser": "^1.15.0",
-    "express": "^3.4.8"
+    "brewerydb-node": "0.0.1",
+    "express": "^3.4.8",
+    "hisrc": "^2.0.0",
+    "http": "0.0.0",
+    "q": "^1.4.1"
   },
   "devDependencies": {},
   "bundleDependencies": [],
