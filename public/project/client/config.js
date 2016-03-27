@@ -4,8 +4,9 @@
         .config(function($routeProvider){
             $routeProvider
                 .when("/home", {
-                    templateUrl: "views/home/home.view.html"
-                    //controller: "HomeController"
+                    templateUrl: "views/home/home.view.html",
+                    controller: "HomeController",
+                    controllerAs: "model"
                 })
                 .when("/profile", {
                     templateUrl: "views/users/profile.view.html",
@@ -29,7 +30,17 @@
                 })
                 .when("/beer", {
                     templateUrl: "views/brewery/beer.view.html",
-                    //controller: "BeerController",
+                    controller: "BeerController",
+                    controllerAs: "model"
+                })
+                .when("/beer/:id", {
+                    templateUrl: "views/detail/beer.detail.view.html",
+                    controller: "BeerDetailController",
+                    controllerAs: "model"
+                })
+                .when("/brewery/:id", {
+                    templateUrl: "views/detail/brewery.detail.view.html",
+                    controller: "BreweryDetailController",
                     controllerAs: "model"
                 })
                 .otherwise({

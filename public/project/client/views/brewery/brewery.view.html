@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Breweries</title>
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-9 col-md-10 main">
+      <h1 class="page-header">Breweries</h1>
+      <div class="input-group">
+        <input ng-model="model.brewery" type="text" class="form-control" placeholder="Harpoon">
+        <span class="input-group-btn">
+          <button ng-click="model.searchBrewery(model.brewery)" class="btn btn-primary btn-block">Search</button>
+        </span>
+      </div>
+      <div class="table-responsive">
+        <table class="table table-striped table-hover table-bordered">
+          <tbody>
+            <tr ng-repeat="brewery in model.breweries"
+                ng-class="{'success' : $index == selectedFormIndex}"
+                ng-click="model.selectBrewery(brewery)">
+              <td class="media-left">
+                <img ng-src="{{brewery.images.squareMedium}}">
+              </td>
+              <td class="media-body">
+                <h4>{{brewery.name}}</h4>
+                <p> {{brewery.description}}<br>
+                    {{brewery.website}}
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

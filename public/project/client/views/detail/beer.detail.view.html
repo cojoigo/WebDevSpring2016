@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Details</title>
+</head>
+<body>
+<div class="container-fluid">
+  <div class="main">
+    <h1 class="page-header">Details</h1>
+    <div class="text-center">
+      <h4 ng-show="model.beer.name">{{model.beer.name}}</h4>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 col-xs-4">
+        <img ng-src="{{model.beer.labels.medium}}" class="img-responsive">
+      </div>
+      <div class="col-sm-6 col-xs-6">
+        <h5>Description:</h5>
+        <p ng-show="model.beer.description">{{model.beer.description}}</p>
+        <h5>Availability:</h5>
+        <p ng-show="model.beer.available">{{model.beer.available.name}}</p>
+        <h5>Style:</h5>
+        <p ng-show="model.beer.style">{{model.beer.style.category.name}}</p>
+        <p ng-show="model.beer.style">{{model.beer.style.description}}</p>
+        <p ng-show="model.beer.abv">ABV: {{model.beer.abv}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

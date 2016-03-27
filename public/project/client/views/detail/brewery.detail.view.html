@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Details</title>
+</head>
+<body>
+<div class="container-fluid">
+  <div class="main">
+    <h1 class="page-header">Details</h1>
+    <div class="row">
+      <div class="text-center">
+        <h4 ng-show="model.brewery.name">{{model.brewery.name}}</h4>
+      </div>
+      <div class="col-sm-4 col-sm-offset-2 col-xs-4 col-xs-offset-2">
+        <h4 ng-show="model.brewery.locations"></h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 col-xs-4">
+        <img ng-src="{{model.brewery.images.large}}" class="img-responsive">
+      </div>
+      <div class="col-sm-6 col-xs-6">
+        <h5>Located in {{model.brewery.locations[0].locality}}, {{model.brewery.locations[0].region}}<br>
+          {{model.brewery.locations[0].streetAddress}}<br>
+          {{model.brewery.locations[0].phone}}</h5>
+        <h5>Description:</h5>
+        <p ng-show="model.brewery.description">{{model.brewery.description}}</p>
+        <p ng-show="model.brewery.locations">Hours of Operation: {{model.brewery.locations[0].hoursOfOperation}}</p>
+        <p ng-show="model.brewery.established">Established: {{model.brewery.established}}</p>
+        <a ng-show="model.brewery.website" href="{{model.brewery.website}}">{{model.brewery.website}}</a><br>
+        <a ng-show="model.brewery.socialAccounts" href="{{model.brewery.socialAccounts[0].link}}">{{model.brewery.socialAccounts[0].link}}</a>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
