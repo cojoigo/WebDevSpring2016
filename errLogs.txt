@@ -1,0 +1,3272 @@
+==> app-root/logs/nodejs.log-20160201104750 <==
+    at Function.Module.runMain (module.js:499:11)
+    at startup (node.js:119:16)
+    at node.js:929:3
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:905:11)
+
+==> app-root/logs/nodejs.log-20160201021321 <==
+    at dns.js:72:18
+    at process._tickCallback (node.js:442:13)
+    at Function.Module.runMain (module.js:499:11)
+    at startup (node.js:119:16)
+    at node.js:929:3
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+
+==> app-root/logs/nodejs.log-20160201053946 <==
+    at errnoException (net.js:905:11)
+    at Server._listen2 (net.js:1043:14)
+    at listen (net.js:1065:10)
+    at net.js:1147:9
+    at dns.js:72:18
+    at process._tickCallback (node.js:442:13)
+    at Function.Module.runMain (module.js:499:11)
+    at startup (node.js:119:16)
+    at node.js:929:3
+DEBUG: Program node server.js exited with code 8
+
+==> app-root/logs/nodejs.log-20160204065412 <==
+DEBUG: Starting child process with 'node server.js'
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:905:11)
+    at Server._listen2 (net.js:1043:14)
+    at listen (net.js:1065:10)
+    at net.js:1147:9
+DEBUG: Sending SIGTERM to child...
+
+==> app-root/logs/nodejs.log-20160204103734 <==
+    at Function.Module.runMain (module.js:499:11)
+    at startup (node.js:119:16)
+    at node.js:929:3
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:905:11)
+
+==> app-root/logs/nodejs.log-20160205022737 <==
+    at dns.js:72:18
+    at process._tickCallback (node.js:442:13)
+    at Function.Module.runMain (module.js:499:11)
+    at startup (node.js:119:16)
+    at node.js:929:3
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+
+==> app-root/logs/nodejs.log-20160205061854 <==
+    at errnoException (net.js:905:11)
+    at Server._listen2 (net.js:1043:14)
+    at listen (net.js:1065:10)
+    at net.js:1147:9
+    at dns.js:72:18
+    at process._tickCallback (node.js:442:13)
+    at Function.Module.runMain (module.js:499:11)
+    at startup (node.js:119:16)
+    at node.js:929:3
+DEBUG: Program node server.js exited with code 8
+
+==> app-root/logs/nodejs.log-20160205100252 <==
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:905:11)
+    at Server._listen2 (net.js:1043:14)
+    at listen (net.js:1065:10)
+    at net.js:1147:9
+    at dns.js:72:18
+    at process._tickCallback (node.js:442:13)
+    at Function.Module.runMain (module.js:499:11)
+    at startup (node.js:119:16)
+
+==> app-root/logs/nodejs.log-20160326091449 <==
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:16:17)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+
+==> app-root/logs/nodejs.log <==
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './models/brewdb.model.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at module.exports (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/public/project/server/app.js:4:25)
+    at Object.<anonymous> (/var/lib/openshift/569803c50c1e6628a9000186/app-root/runtime/repo/server.js:17:42)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+Interrupted
