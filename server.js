@@ -10,8 +10,21 @@ app.use('/', express.static(__dirname + '/public'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-//var connectionString = 'mongodb://localhost/assignment';
-var db = mongoose.connect('mongodb://127.0.0.1:27017/cs5610fall2015exmpl1');
+
+// create a default connection string
+var connectionString = 'mongodb://127.0.0.1:27017/cs5610fall2015exmpl1';
+
+// use remote connection string
+// if running in remote server
+if(process.env.OPENSHIFT_MONGODB_DB_PASSWORD) {
+    connectionString = process.env.OPENSHIFT_MONGODB_DB_USERNAME + ":" +
+        process.env.OPENSHIFT_MONGODB_DB_PASSWORD + "@" +
+        process.env.OPENSHIFT_MONGODB_DB_HOST + ':' +
+        process.env.OPENSHIFT_MONGODB_DB_PORT + '/' +
+        process.env.OPENSHIFT_APP_NAME;
+}
+
+var db = mongoose.connect(connectionString);
 
 require("./public/assignment/server/app.js")(app);
 
