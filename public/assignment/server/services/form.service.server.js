@@ -9,38 +9,85 @@ module.exports = function(app, model) {
 
     function findAllFormsForUser(req, res){
         var userId = req.params.userId;
-        var form = model.findAllFormsForUser(userId);
-        res.json(form);
+        model.findAllFormsForUser(userId).then(
+            function (doc) {
+                res.json(doc);
+            },
+            // send error if promise rejected
+            function ( err ) {
+                res.status(400).send(err);
+            }
+        );
     }
 
     function findFormById(req, res){
         var formId = req.params.formId;
-        var form = model.findFormById(formId);
-        res.json(form);
+        model.findFormById(formId)
+            .then(
+                function (doc) {
+                    res.json(doc);
+                },
+                // send error if promise rejected
+                function ( err ) {
+                    res.status(400).send(err);
+                }
+            );
     }
 
     function deleteForm(req, res){
         var formId = req.params.formId;
-        var form = model.deleteForm(formId);
-        res.json(form);
+        model.deleteForm(formId)
+            .then(
+                function (doc) {
+                    res.json(doc);
+                },
+                // send error if promise rejected
+                function ( err ) {
+                    res.status(400).send(err);
+                }
+            );
     }
 
     function createFormForUser(req, res){
         var form = req.body;
         var userId = req.params.userId;
-        form = model.createFormForUser(userId, form);
-        res.json(form);
+        model.createFormForUser(userId, form)
+            .then(
+                function (doc) {
+                    res.json(doc);
+                },
+                // send error if promise rejected
+                function ( err ) {
+                    res.status(400).send(err);
+                }
+            );
     }
 
     function updateFormById(req, res){
         var form = req.body;
         var formId = req.params.formId;
-        form = model.updateForm(formId, form);
-        res.json(form);
+        model.updateForm(formId, form)
+            .then(
+                function (doc) {
+                    res.json(doc);
+                },
+                // send error if promise rejected
+                function ( err ) {
+                    res.status(400).send(err);
+                }
+            );
     }
 
     function findAllForms(req, res){
-        var forms = model.findAllForms();
-        res.json(forms);
+        model.findAllForms()
+            .then(
+                function (doc) {
+                    res.json(doc);
+                },
+                // send error if promise rejected
+                function ( err ) {
+                    res.status(400).send(err);
+                }
+            );
     }
 };

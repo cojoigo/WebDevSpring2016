@@ -7,55 +7,76 @@ module.exports = function(app, model) {
 
     function findFieldsInForm(req, res){
         var formId = req.params.formId;
-        var form = model.findFormById(formId);
-        res.json(form.fields);
+        model.findFieldsInForm(formId)
+            .then(
+                function (doc) {
+                    res.json(doc);
+                },
+                // send error if promise rejected
+                function ( err ) {
+                    res.status(400).send(err);
+                }
+            );
     }
 
     function findFieldById(req, res){
         var formId = req.params.formId;
         var fieldId = req.params.fieldId;
-        var form = model.findFormById(formId);
-        for (var i in form.fields){
-            if (form.fields[i]._id === Number(fieldId)){
-                res.json(form.fields);
-            }
-        }
+        model.findFieldsInForm(formId, fieldId)
+            .then(
+                function (doc) {
+                    res.json(doc);
+                },
+                // send error if promise rejected
+                function ( err ) {
+                    res.status(400).send(err);
+                }
+            );
     }
 
     function deleteField(req, res){
         var formId = req.params.formId;
         var fieldId = req.params.fieldId;
-        var form = model.findFormById(formId);
-        for (var i in form.fields){
-            if (form.fields[i]._id === Number(fieldId) ||form.fields[i]._id === fieldId){
-                form.fields.splice(i,1);
-            }
-        }
-        model.updateForm(formId, form);
-        res.json(form.fields);
+        model.deleteField(formId, fieldId)
+            .then(
+                function (doc) {
+                    res.json(doc);
+                },
+                // send error if promise rejected
+                function ( err ) {
+                    res.status(400).send(err);
+                }
+            );
     }
 
     function createField(req, res){
         var formId = req.params.formId;
         var field = req.body;
-        var form = model.findFormById(formId);
-        field._id = (new Date).getTime();
-        form.fields.push(field);
-        model.updateForm(formId, form);
-        res.json(form.fields);
+        model.createField(formId, field)
+            .then(
+                function (doc) {
+                    res.json(doc);
+                },
+                // send error if promise rejected
+                function ( err ) {
+                    res.status(400).send(err);
+                }
+            ).done();
     }
 
     function updateField(req, res){
         var formId = req.params.formId;
         var fieldId = req.params.fieldId;
         var field = req.body;
-        var form = model.findFormById(formId);
-        for (var i in form.fields){
-            if (form.fields[i]._id === fieldId){
-                form.fields[i] = field;
-            }
-        }
-        model.updateForm(formId, form);
-        res.json(form.fields);
+        model.findFieldsInForm(formId, fieldId, field)
+            .then(
+                function (doc) {
+                    res.json(doc);
+                },
+                // send error if promise rejected
+                function ( err ) {
+                    res.status(400).send(err);
+                }
+            );
     }
 };

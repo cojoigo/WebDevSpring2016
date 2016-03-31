@@ -11,7 +11,7 @@
 
         function register(user){
             var newUser = {"firstname":"", "lastname":"", "username":user.username,
-                "password":user.password, "roles":[]};
+                "password":user.password, "roles":[], "emails":[user.email]};
             UserService.createUser(newUser)
                 .then(function() {
                     $location.path('/profile');

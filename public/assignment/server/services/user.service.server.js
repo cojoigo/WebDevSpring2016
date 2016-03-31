@@ -7,42 +7,91 @@ module.exports = function(app, model){
 
     function createUser(req, res){
         var user = req.body;
-        user = model.createUser(user);
-        res.json(user);
+        model.createUser(user)
+            .then(
+                function (doc) {
+                    res.json(doc);
+                },
+                // send error if promise rejected
+                function ( err ) {
+                    res.status(400).send(err);
+                }
+            );
     }
 
     function findAllUsers(req, res){
-        var user = null;
         var username = req.query.username;
         var password = req.query.password;
         if (username === undefined) {
-            user = model.findAllUsers();
-            res.json(user);
+            model.findAllUsers()
+                .then(
+                    function (doc) {
+                        res.json(doc);
+                    },
+                    // send error if promise rejected
+                    function ( err ) {
+                        res.status(400).send(err);
+                    });
         } else if (password === undefined) {
-            user = model.findUserByUsername(username);
-            res.json(user);
+            model.findUserByUsername(username)
+                .then(
+                    function (doc) {
+                        res.json(doc);
+                    },
+                    // send error if promise rejected
+                    function ( err ) {
+                        res.status(400).send(err);
+                    });
         } else {
-            user = model.findUserByCredentials(username, password);
-            res.json(user);
+             model.findUserByCredentials(username, password)
+                .then(
+                    function (doc) {
+                        res.json(doc);
+                    },
+                    // send error if promise rejected
+                    function ( err ) {
+                        res.status(400).send(err);
+                    });
         }
     }
 
     function findUserById(req, res){
         var userId = req.params.id;
-        var user = model.findUserById(Number(userId));
-        res.json(user);
+        model.findUserById(userId)
+            .then(
+                function (doc) {
+                    res.json(doc);
+                },
+                // send error if promise rejected
+                function ( err ) {
+                    res.status(400).send(err);
+                });
     }
 
     function updateUser(req, res){
         var user = req.body;
         var userId = req.params.id;
-        user = model.updateUser(Number(userId), user);
-        res.json(user);
+        model.updateUser(userId, user)
+            .then(
+                function (doc) {
+                    res.json(doc);
+                },
+                // send error if promise rejected
+                function ( err ) {
+                    res.status(400).send(err);
+                });
     }
 
     function deleteUserById(req, res){
         var userId = req.params.id;
-        var user = model.deleteUserById(userId);
-        res.json(user);
+        model.deleteUserById(userId)
+            .then(
+                function (doc) {
+                    res.json(doc);
+                },
+                // send error if promise rejected
+                function ( err ) {
+                    res.status(400).send(err);
+                });
     }
 };

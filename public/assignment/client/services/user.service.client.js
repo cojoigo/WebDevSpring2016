@@ -22,7 +22,9 @@
         function findUserByCredentials(username, password){
             return $http.get("/api/assignment/user?username="+username+"&password="+password)
                 .then(function(user) {
-                    setCurrentUser(user.data)
+                    if (user.data) {
+                        setCurrentUser(user.data)
+                    }
                 });
         }
 
@@ -42,7 +44,6 @@
         }
 
         function updateUser(userId, user){
-            console.log(userId);
             return $http.put("/api/assignment/user/"+userId, user);
         }
 

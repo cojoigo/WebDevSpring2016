@@ -16,7 +16,9 @@
             }
             UserService.findUserByCredentials(user.username, user.password)
                 .then(function(){
-                    $location.path('/profile');
+                    if (UserService.getCurrentUser()) {
+                        $location.path('/profile');
+                    }
                 });
         }
     }
