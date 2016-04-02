@@ -23,7 +23,14 @@
             return $http.delete("/api/assignment/form/"+formId);
         }
 
-        function updateFormById(formId, newForm){
+        function updateFormById(formId, form){
+            var newForm = {
+                userId: form.userId,
+                title: form.title,
+                fields: form.fields,
+                created: form.created,
+                updated: form.updated
+            };
             return $http.put("/api/assignment/form/"+formId, newForm);
         }
     }

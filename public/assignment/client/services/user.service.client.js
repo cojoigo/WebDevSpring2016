@@ -44,7 +44,16 @@
         }
 
         function updateUser(userId, user){
-            return $http.put("/api/assignment/user/"+userId, user);
+            var newUser = {
+                username: user.username,
+                password: user.password,
+                firstName: user.firstName,
+                lastName: user.lastName,
+                roles: user.roles,
+                emails: user.emails,
+                phones: user.phones
+            };
+            return $http.put("/api/assignment/user/"+userId, newUser);
         }
 
         function setCurrentUser(user){

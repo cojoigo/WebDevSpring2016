@@ -29,7 +29,14 @@
         }
 
         function updateField(formId, fieldId, field){
-            return $http.put("/api/assignment/form/"+formId+"/field/"+fieldId, field);
+            var newField = {
+                label: field.label,
+                formId: field.formId,
+                type: field.type,
+                placeholder: field.placeholder,
+                options: field.options
+            };
+            return $http.put("/api/assignment/form/"+formId+"/field/"+fieldId, newField);
         }
     }
 })();
