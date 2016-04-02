@@ -11,6 +11,8 @@
         vm.addField = addField;
         vm.removeField = removeField;
         vm.editField = editField;
+        vm.selectField = selectField;
+        vm.updating = 0;
 
         function init(){
             FieldService.getFieldsForForm(formId)
@@ -22,7 +24,21 @@
         init();
 
         function editField(field){
-            FieldService.updateField(formId,field._id,field);
+            vm.updating = 0;
+            if (vm.selectedField.options[0]) {
+                var parseOptions = vm.selectedField.selectedOptions.split(",");
+                var retOptions = [];
+                for (var i in parseOptions) {
+                    var splitting = parseOptions[i].split(":");
+                    retOptions.push(
+                        {
+                            label: splitting[0],
+                            value: splitting[1]
+                        });
+                }
+                field.options = retOptions;
+            }
+            FieldService.updateField(formId, field._id,field);
             FieldService.getFieldsForForm(formId)
                 .then(function(fieldList) {
                     vm.fields = fieldList.data;
@@ -81,6 +97,17 @@
                     vm.fields = fieldList.data;
                     $location.path('/form/'+formId+'/fields');
                 });
+        }
+
+        function selectField(field){
+            vm.selectedField = field;
+            var selectedOptions = [];
+            for (var i in vm.selectedField.options){
+                var str = vm.selectedField.options[i].label + ":" + vm.selectedField.options[i].value + "\n";
+                selectedOptions.push(str);
+            }
+            vm.selectedField.selectedOptions = selectedOptions;
+            vm.updating = 1;
         }
 
     }

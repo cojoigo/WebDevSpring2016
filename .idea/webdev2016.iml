@@ -15,5 +15,6 @@
     <orderEntry type="library" name="jquery-ui" level="application" />
     <orderEntry type="library" name="sortable" level="application" />
     <orderEntry type="library" name="respond" level="application" />
+    <orderEntry type="library" name="bootstrap-editable" level="application" />
   </component>
 </module>

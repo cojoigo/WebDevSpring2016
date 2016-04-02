@@ -65,10 +65,9 @@ module.exports = function(app, model) {
     }
 
     function updateField(req, res){
-        var formId = req.params.formId;
         var fieldId = req.params.fieldId;
         var field = req.body;
-        model.findFieldsInForm(formId, fieldId, field)
+        model.updateField(fieldId, field)
             .then(
                 function (doc) {
                     res.json(doc);

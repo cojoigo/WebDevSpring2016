@@ -73,7 +73,7 @@ module.exports = function(FormModel) {
         return deferred.promise;
     }
 
-    function updateField(formId, fieldId, field){
+    function updateField(fieldId, field){
         var deferred = q.defer();
         FieldModel.findByIdAndUpdate(fieldId, field, function (err, doc) {
             if (err) {
