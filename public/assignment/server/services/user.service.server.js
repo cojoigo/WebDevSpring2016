@@ -7,7 +7,16 @@ module.exports = function(app, model){
 
     function createUser(req, res){
         var user = req.body;
-        model.createUser(user)
+        var newUser = {
+            username: user.username,
+            password: user.password,
+            firstName: user.firstName,
+            lastName: user.lastName,
+            roles: user.roles,
+            emails: user.emails,
+            phones: user.phones
+        };
+        model.createUser(newUser)
             .then(
                 function (doc) {
                     res.json(doc);
