@@ -1,9 +1,9 @@
 (function(){
     angular
         .module("FormBuilderApp")
-        .controller("HeaderController", ['UserService', '$location', HeaderController]);
+        .controller("HeaderController", ['UserService', '$location', '$rootScope', HeaderController]);
 
-    function HeaderController(UserService, $location) {
+    function HeaderController(UserService, $location, $rootScope) {
 
         var vm = this;
 
@@ -11,14 +11,22 @@
 
         function init() {
             vm.$location = $location;
-            vm.user = UserService.getCurrentUser();
         }
 
         init();
 
         function logout(){
-            $location.path('#/home');
-            UserService.setCurrentUser(null);
+            UserService
+                .logout()
+                .then(
+                    function(){
+                        $rootScope.currentUser = null;
+                        $location.url("/home");
+                    },
+                    function(err) {
+                        $scope.error = err;
+                    }
+                );
         }
 
     }

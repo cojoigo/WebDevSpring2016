@@ -16,9 +16,14 @@ module.exports = function(){
         updateUser: updateUser,
         deleteUserById: deleteUserById,
         findUserByCredentials: findUserByCredentials,
-        findUserByUsername: findUserByUsername
+        findUserByUsername: findUserByUsername,
+        getMongooseModel: getMongooseModel
     };
     return api;
+
+    function getMongooseModel() {
+        return UserModel;
+    }
 
     function createUser(user) {
         var deferred = q.defer();
@@ -90,13 +95,13 @@ module.exports = function(){
         return deferred.promise;
     }
 
-    function findUserByCredentials(username, password) {
+    function findUserByCredentials(creds) {
         var deferred = q.defer();
         // find one retrieves one document
         UserModel.findOne(
             // first argument is predicate
-            { username: username,
-                password: password },
+            { username: creds.username,
+                password: creds.password },
             // doc is unique instance matches predicate
             function(err, doc) {
 

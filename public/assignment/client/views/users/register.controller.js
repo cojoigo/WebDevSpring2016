@@ -2,20 +2,32 @@
 {
     angular
         .module("FormBuilderApp")
-        .controller("RegisterController", ['UserService', '$location', RegisterController]);
+        .controller("RegisterController", ['UserService', '$location', '$rootScope', RegisterController]);
 
-    function RegisterController(UserService, $location)
+    function RegisterController(UserService, $location, $rootScope)
     {
         var vm = this;
         vm.register = register;
 
         function register(user){
-            var newUser = {"firstname":"", "lastname":"", "username":user.username,
-                "password":user.password, "roles":[], "emails":[user.email]};
-            UserService.createUser(newUser)
-                .then(function() {
-                    $location.path('/profile');
-                })
+            if(user.password != user.verifypassword || user.password == null)
+            {
+                vm.error = "Your passwords don't match";
+            } else {
+                UserService.register(user)
+                    .then(
+                        function (response) {
+                            var user = response.data;
+                            if (user != null) {
+                                $rootScope.currentUser = user;
+                                $location.url("/profile");
+                            }
+                        },
+                        function (err) {
+                            vm.error = err;
+                        }
+                    );
+            }
         }
     }
 })();

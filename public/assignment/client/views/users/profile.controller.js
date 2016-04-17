@@ -2,9 +2,9 @@
 {
     angular
         .module("FormBuilderApp")
-        .controller("ProfileController", ['UserService', '$location',  ProfileController]);
+        .controller("ProfileController", ['UserService', '$location', '$rootScope', ProfileController]);
 
-    function ProfileController(UserService, $location)
+    function ProfileController(UserService, $location, $rootScope)
     {
 
         var vm = this;
@@ -12,7 +12,7 @@
         vm.update = update;
 
         function init(){
-            vm.user = UserService.getCurrentUser();
+            vm.user = $rootScope.currentUser;
         }
         return init();
 

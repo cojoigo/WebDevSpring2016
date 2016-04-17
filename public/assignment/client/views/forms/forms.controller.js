@@ -2,9 +2,9 @@
 {
     angular
         .module("FormBuilderApp")
-        .controller("FormController", ['FormService', 'UserService', '$location',  FormController]);
+        .controller("FormController", ['FormService', '$location', '$rootScope', FormController]);
 
-    function FormController(FormService, UserService, $location)
+    function FormController(FormService, $location, $rootScope)
     {
         var vm = this;
         vm.addForm = addForm;
@@ -15,7 +15,7 @@
         vm.updating = 1;
 
         function init(){
-            var user = UserService.getCurrentUser();
+            var user = $rootScope.currentUser;
             FormService.findAllFormsForUser(user._id)
                 .then(function(formList) {
                     vm.forms = formList.data;
@@ -26,7 +26,7 @@
 
 
         function addForm(newForm){
-            var user = UserService.getCurrentUser();
+            var user = $rootScope.currentUser;
             FormService.createFormForUser(user._id,newForm);
             FormService.findAllFormsForUser(user._id)
                 .then(function(formList) {
