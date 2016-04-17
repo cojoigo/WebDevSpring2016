@@ -14,13 +14,13 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#/beer">Beers</a></li>
         <li><a href="#/brewery">Breweries</a></li>
-        <li ng-show="user"><a href="#/favorite">Favorites</a></li>
-        <li ng-class="{'active' : model.$location.url().indexOf('register') != -1}" ng-hide="user">
+        <li ng-show="currentUser"><a href="#/favorite">Favorites</a></li>
+        <li ng-class="{'active' : model.$location.url().indexOf('register') != -1}" ng-hide="currentUser">
           <a href="#/register">Register</a></li>
-        <li ng-class="{'active' : model.$location.url().indexOf('login') != -1}" ng-hide="user">
+        <li ng-class="{'active' : model.$location.url().indexOf('login') != -1}" ng-hide="currentUser">
           <a href="#/login">Login</a></li>
-        <li ng-show="user"><a ng-click="model.logout()">Logout</a></li>
-        <li ng-show="user"><a href="#/profile">{{user.username}}</a></li>
+        <li ng-show="currentUser"><a ng-click="model.logout()">Logout</a></li>
+        <li ng-show="currentUser"><a href="#/profile">{{currentUser.username}}</a></li>
       </ul>
     </div>
   </div>

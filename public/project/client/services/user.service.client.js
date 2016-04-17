@@ -3,17 +3,30 @@
         .module("BreweryApp")
         .factory("UserService", userService);
 
-    function userService($http, $rootScope) {
+    function userService($http) {
         return {
+            login: login,
+            logout: logout,
+            register: register,
             findUserByUsername: findUserByUsername,
             findUserByCredentials: findUserByCredentials,
             findAllUsers: findAllUsers,
             createUser: createUser,
             deleteUserById: deleteUserById,
-            updateUser: updateUser,
-            setCurrentUser: setCurrentUser,
-            getCurrentUser: getCurrentUser
+            updateUser: updateUser
         };
+
+        function login(user) {
+            return $http.post("/api/assignment/login", user);
+        }
+
+        function logout() {
+            return $http.post("/api/assignment/logout");
+        }
+
+        function register(user) {
+            return $http.post("/api/assignment/register", user);
+        }
 
         function findUserByUsername(username){
             return $http.get("/api/project/user?username="+username);
@@ -42,16 +55,16 @@
         }
 
         function updateUser(userId, user){
-            console.log(userId);
-            return $http.put("/api/project/user/"+userId, user);
-        }
-
-        function setCurrentUser(user){
-            $rootScope.user = user;
-        }
-
-        function getCurrentUser(){
-            return $rootScope.user;
+            var newUser = {
+                username: user.username,
+                password: user.password,
+                firstName: user.firstName,
+                lastName: user.lastName,
+                roles: user.roles,
+                emails: user.emails,
+                phones: user.phones
+            };
+            return $http.put("/api/project/user/"+userId, newUser);
         }
     }
 })();
