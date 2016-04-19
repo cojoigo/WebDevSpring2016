@@ -24,7 +24,7 @@
         <p ng-show="model.beer.style">{{model.beer.style.description}}</p>
         <p ng-show="model.beer.abv">ABV: {{model.beer.abv}}</p>
       </div>
-      <div class="col-sm-2 col-xs-2">
+      <div ng-show="currentUser" class="col-sm-2 col-xs-2">
         <button class="btn btn-primary"
                 ng-click="model.favorite(model.data)">
           <span ng-show="!model.favorited">Favorite</span>

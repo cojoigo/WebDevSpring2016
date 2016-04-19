@@ -17,7 +17,7 @@
         return init();
 
         function update(user){
-            user.emails = [user.emails];
+            user.emails.push(vm.user.emails);
             UserService.updateUser(vm.user._id, user)
                 .then(function() {
                     $location.path('/profile');

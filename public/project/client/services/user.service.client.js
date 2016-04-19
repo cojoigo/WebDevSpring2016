@@ -62,7 +62,9 @@
                 lastName: user.lastName,
                 roles: user.roles,
                 emails: user.emails,
-                phones: user.phones
+                phones: user.phones,
+                favoriteBeers: user.favoriteBeers,
+                favoriteBreweries: user.favoriteBreweries
             };
             return $http.put("/api/project/user/"+userId, newUser);
         }

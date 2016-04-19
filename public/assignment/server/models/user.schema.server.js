@@ -17,7 +17,9 @@ module.exports = function() {
         facebook:   {
             id:    String,
             token: String
-        }
+        },
+        favoriteBeers: [String],
+        favoriteBreweries: [String]
     }, {collection: 'user'});
     return UserSchema;
 };

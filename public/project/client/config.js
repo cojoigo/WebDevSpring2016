@@ -32,22 +32,34 @@
                 .when("/brewery", {
                     templateUrl: "views/brewery/brewery.view.html",
                     controller: "BreweryController",
-                    controllerAs: "model"
+                    controllerAs: "model",
+                    resolve: {
+                        loggedin: checkCurrentUser
+                    }
                 })
                 .when("/beer", {
                     templateUrl: "views/brewery/beer.view.html",
                     controller: "BeerController",
-                    controllerAs: "model"
+                    controllerAs: "model",
+                    resolve: {
+                        loggedin: checkCurrentUser
+                    }
                 })
                 .when("/beer/:id", {
                     templateUrl: "views/detail/beer.detail.view.html",
                     controller: "BeerDetailController",
-                    controllerAs: "model"
+                    controllerAs: "model",
+                    resolve: {
+                        loggedin: checkCurrentUser
+                    }
                 })
                 .when("/brewery/:id", {
                     templateUrl: "views/detail/brewery.detail.view.html",
                     controller: "BreweryDetailController",
-                    controllerAs: "model"
+                    controllerAs: "model",
+                    resolve: {
+                        loggedin: checkCurrentUser
+                    }
                 })
                 .otherwise({
                     redirectTo: "/home"
