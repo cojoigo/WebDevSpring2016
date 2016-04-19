@@ -15,6 +15,8 @@ module.exports = function(app, model){
     app.get("/api/project/user/:id", findUserById);
     app.put("/api/project/user/:id", auth, updateUser);
     app.delete("/api/project/user/:id", auth, deleteUserById);
+    app.post("/api/project/user/:userId/like", userLikes);
+    app.post("/api/project/user/:userId/dislike", userDislikes);
 
     passport.use(new LocalStrategy(localStrategy));
     passport.serializeUser(serializeUser);
@@ -267,5 +269,35 @@ module.exports = function(app, model){
         } else {
             next();
         }
+    }
+
+    function userLikes(req, res) {
+        var object  = req.body;
+        var userId = req.params.userId;
+
+        model.userLikes(userId, object)
+            .then(
+                function (user) {
+                    res.json(user);
+                },
+                function (err) {
+                    res.status(400).send(err);
+                }
+            );
+    }
+
+    function userDislikes(req, res) {
+        var object  = req.body;
+        var userId = req.params.userId;
+
+        model.userDislikes(userId, object)
+            .then(
+                function (user) {
+                    res.json(user);
+                },
+                function (err) {
+                    res.status(400).send(err);
+                }
+            );
     }
 };

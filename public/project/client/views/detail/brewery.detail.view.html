@@ -30,7 +30,7 @@
         <a ng-show="model.brewery.website" href="{{model.brewery.website}}">{{model.brewery.website}}</a><br>
         <a ng-show="model.brewery.socialAccounts" href="{{model.brewery.socialAccounts[0].link}}">{{model.brewery.socialAccounts[0].link}}</a>
       </div>
-      <div class="col-sm-2 col-xs-2">
+      <div ng-show="currentUser" class="col-sm-2 col-xs-2">
         <button class="btn btn-primary"
                 ng-click="model.favorite(model.data)">
           <span ng-show="!model.favorited">Favorite</span>

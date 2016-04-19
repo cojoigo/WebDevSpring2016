@@ -2,6 +2,12 @@ var mongoose = require('mongoose');
 
 module.exports = function() {
 
+    var objectSchema = mongoose.Schema({
+        name: String,
+        id: String,
+        type: String
+    });
+
     var UserSchema = mongoose.Schema({
         username: String,
         password: String,
@@ -18,8 +24,7 @@ module.exports = function() {
             id:    String,
             token: String
         },
-        favoriteBeers: [String],
-        favoriteBreweries: [String],
+        favorites: [objectSchema],
         adminBreweries: [String]
     }, {collection: 'user'});
     return UserSchema;

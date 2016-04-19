@@ -70,7 +70,7 @@
                     }
                 })
                 .when("/favorites", {
-                    templateUrl: "views/admin/favorites.view.html",
+                    templateUrl: "views/favorites/favorites.view.html",
                     controller: "FavoritesController",
                     controllerAs: "model",
                     resolve: {

@@ -13,7 +13,9 @@
             findAllUsers: findAllUsers,
             createUser: createUser,
             deleteUserById: deleteUserById,
-            updateUser: updateUser
+            updateUser: updateUser,
+            userLikes: userLikes,
+            userDislikes: userDislikes
         };
 
         function login(user) {
@@ -57,11 +59,18 @@
                 roles: user.roles,
                 emails: user.emails,
                 phones: user.phones,
-                favoriteBeers: user.favoriteBeers,
-                favoriteBreweries: user.favoriteBreweries,
+                favorites: user.favorites,
                 adminBreweries: user.adminBreweries
             };
             return $http.put("/api/project/user/"+userId, newUser);
+        }
+
+        function userLikes(userId, object){
+            return $http.post("/api/project/user/"+userId+"/like", object);
+        }
+
+        function userDislikes(userId, object){
+            return $http.post("/api/project/user/"+userId+"/dislike", object);
         }
     }
 })();

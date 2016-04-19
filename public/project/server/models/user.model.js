@@ -3,6 +3,12 @@ var mongoose = require("mongoose");
 
 module.exports = function(){
 
+    var objectSchema = new mongoose.Schema({
+        name: String,
+        id: String,
+        type: String
+    });
+
     var UserSchema = new mongoose.Schema(
         {
             username: String,
@@ -20,8 +26,7 @@ module.exports = function(){
                 id:    String,
                 token: String
             },
-            favoriteBeers: [String],
-            favoriteBreweries: [String],
+            favorites: [objectSchema],
             adminBreweries: [String]
         }, {collection: "user"});
 
@@ -35,12 +40,63 @@ module.exports = function(){
         deleteUserById: deleteUserById,
         findUserByCredentials: findUserByCredentials,
         findUserByUsername: findUserByUsername,
-        getMongooseModel: getMongooseModel
+        getMongooseModel: getMongooseModel,
+        userLikes: userLikes,
+        userDislikes: userDislikes
     };
     return api;
 
     function getMongooseModel() {
         return UserModel;
+    }
+
+    function userLikes (userId, object) {
+        var deferred = q.defer();
+        // find the user
+        UserModel.findById(userId, function (err, doc) {
+            // reject promise if error
+            if (err) {
+                deferred.reject(err);
+            } else {
+                // add movie id to user likes
+                console.log(object);
+                doc.favorites.push(object);
+                // save user
+                doc.save (function (err, doc) {
+                    if (err) {
+                        deferred.reject(err);
+                    } else {
+                        // resolve promise with user
+                        deferred.resolve (doc);
+                    }
+                });
+            }
+        });
+        return deferred.promise;
+    }
+
+    function userDislikes (userId, object) {
+        var deferred = q.defer();
+        // find the user
+        UserModel.findById(userId, function (err, doc) {
+            // reject promise if error
+            if (err) {
+                deferred.reject(err);
+            } else {
+                // add movie id to user likes
+                doc.favorites.id(object.id).remove();
+                // save user
+                doc.save (function (err, doc) {
+                    if (err) {
+                        deferred.reject(err);
+                    } else {
+                        // resolve promise with user
+                        deferred.resolve (doc);
+                    }
+                });
+            }
+        });
+        return deferred.promise;
     }
 
     function createUser(user) {
@@ -86,6 +142,7 @@ module.exports = function(){
         var deferred = q.defer();
         UserModel.findByIdAndUpdate(userId, user, function (err, doc) {
             if (err) {
+                console.log(err);
                 deferred.reject(err);
             } else {
                 deferred.resolve(doc);

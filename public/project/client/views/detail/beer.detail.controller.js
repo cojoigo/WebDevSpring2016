@@ -15,8 +15,9 @@
                 .then(function(ret) {
                     vm.beer = ret.data;
                     $location.path('/beer/'+beerId);
-                    if ($rootScope.currentUser.favoriteBeers.indexOf(vm.beer.name) >= 0){
-                        console.log($rootScope.currentUser.favoriteBeers.indexOf(vm.beer.name));
+                    if (!$rootScope.currentUser) return;
+                    if ($rootScope.currentUser.favorites.indexOf(vm.beer.name) >= 0){
+                        console.log($rootScope.currentUser.favorites.indexOf({name: vm.beer.name, id: vm.beer.id, type: "beer"}));
                         vm.favorited = 1;
                     }
                 });
@@ -24,18 +25,16 @@
         return init();
 
         function favorite(){
-            if ($rootScope.currentUser.favoriteBeers.indexOf(vm.beer.name) < 0){
-                $rootScope.currentUser.favoriteBeers.push(vm.beer.name);
-                console.log($rootScope.currentUser.favoriteBeers);
-                UserService.updateUser($rootScope.currentUser._id, $rootScope.currentUser)
+            console.log({name: vm.beer.name, id: vm.beer.id, type: "beer"});
+            if ($rootScope.currentUser.favorites.indexOf({name: vm.beer.name, id: vm.beer.id, type: "beer"}) < 0){
+                UserService.userLikes($rootScope.currentUser._id, {name: vm.beer.name, id: vm.beer.id, type: "beer"})
                     .then(function () {
                         $location.path('/beer/'+beerId);
                         vm.favorited = 1;
                     });
             }
             else {
-                $rootScope.currentUser.favoriteBeers.splice(vm.favorited,1);
-                UserService.updateUser($rootScope.currentUser._id, $rootScope.currentUser)
+                UserService.userLikes($rootScope.currentUser._id, {name: vm.beer.name, id: vm.beer.id, type: "beer"})
                     .then(function () {
                         $location.path('/beer/'+beerId);
                         vm.favorited = 0;
