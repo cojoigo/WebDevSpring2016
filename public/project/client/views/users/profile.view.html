@@ -8,10 +8,9 @@
   <div class="row">
     <div class="col-sm-3 col-md-2 sidebar">
       <ul  class="nav nav-sidebar">
-        <li><a href="#/">My Favorites</a></li>
-        <li><a href="#/">My Friends</a></li>
-        <li><a href="#/">My Breweries</a></li>
-        <li><a href="#/">My Beers</a></li>
+        <li ng-class="{'active' : model.$location.url().indexOf('profile') != -1}"><a href="#/profile">My Profile</a></li>
+        <li ng-class="{'active' : model.$location.url().indexOf('favorites') != -1}"><a href="#/favorites">My Favorites</a></li>
+        <li ng-class="{'active' : model.$location.url().indexOf('AdminBreweries') != -1}"><a href="#/AdminBreweries">My Breweries</a></li>
       </ul>
     </div>
     <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">

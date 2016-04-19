@@ -12,12 +12,12 @@
         vm.update = update;
 
         function init(){
+            vm.$location = $location;
             vm.user = $rootScope.currentUser;
         }
         return init();
 
         function update(user){
-            user.emails.push(vm.user.emails);
             UserService.updateUser(vm.user._id, user)
                 .then(function() {
                     $location.path('/profile');

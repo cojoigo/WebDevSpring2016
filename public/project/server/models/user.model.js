@@ -21,7 +21,8 @@ module.exports = function(){
                 token: String
             },
             favoriteBeers: [String],
-            favoriteBreweries: [String]
+            favoriteBreweries: [String],
+            adminBreweries: [String]
         }, {collection: "user"});
 
     var UserModel = mongoose.model('UserModel', UserSchema);

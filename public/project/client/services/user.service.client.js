@@ -33,10 +33,7 @@
         }
 
         function findUserByCredentials(username, password){
-            return $http.get("/api/project/user?username="+username+"&password="+password)
-                .then(function(user) {
-                    setCurrentUser(user.data)
-                });
+            return $http.get("/api/project/user?username="+username+"&password="+password);
         }
 
         function findAllUsers(){
@@ -44,10 +41,7 @@
         }
 
         function createUser(user){
-            return $http.post("/api/project/user", user)
-                .then(function(user) {
-                    setCurrentUser(user.data)
-                });
+            return $http.post("/api/project/user", user);
         }
 
         function deleteUserById(userId){
@@ -64,7 +58,8 @@
                 emails: user.emails,
                 phones: user.phones,
                 favoriteBeers: user.favoriteBeers,
-                favoriteBreweries: user.favoriteBreweries
+                favoriteBreweries: user.favoriteBreweries,
+                adminBreweries: user.adminBreweries
             };
             return $http.put("/api/project/user/"+userId, newUser);
         }

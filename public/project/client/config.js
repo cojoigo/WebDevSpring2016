@@ -61,6 +61,30 @@
                         loggedin: checkCurrentUser
                     }
                 })
+                .when("/admin", {
+                    templateUrl: "views/admin/admin.view.html",
+                    controller: "AdminController",
+                    controllerAs: "model",
+                    resolve: {
+                        loggedin: checkAdmin
+                    }
+                })
+                .when("/favorites", {
+                    templateUrl: "views/admin/favorites.view.html",
+                    controller: "FavoritesController",
+                    controllerAs: "model",
+                    resolve: {
+                        loggedin: checkLoggedin
+                    }
+                })
+                .when("/AdminBreweries", {
+                    templateUrl: "views/admin/AdminBreweries.view.html",
+                    controller: "AdminBreweriesController",
+                    controllerAs: "model",
+                    resolve: {
+                        loggedin: checkLoggedin
+                    }
+                })
                 .otherwise({
                     redirectTo: "/home"
                 });
@@ -70,7 +94,7 @@
     {
         var deferred = $q.defer();
 
-        $http.get('/api/assignment/loggedin').success(function(user)
+        $http.get('/api/project/loggedin').success(function(user)
         {
             $rootScope.errorMessage = null;
             // User is Authenticated
@@ -95,7 +119,7 @@
     {
         var deferred = $q.defer();
 
-        $http.get('/api/assignment/loggedin').success(function(user)
+        $http.get('/api/project/loggedin').success(function(user)
         {
             $rootScope.errorMessage = null;
             // User is Authenticated
@@ -120,7 +144,7 @@
     {
         var deferred = $q.defer();
 
-        $http.get('/api/assignment/loggedin').success(function(user)
+        $http.get('/api/project/loggedin').success(function(user)
         {
             $rootScope.errorMessage = null;
             // User is Authenticated

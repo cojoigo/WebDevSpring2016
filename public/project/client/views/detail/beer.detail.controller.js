@@ -35,7 +35,6 @@
             }
             else {
                 $rootScope.currentUser.favoriteBeers.splice(vm.favorited,1);
-                console.log($rootScope.currentUser.favoriteBeers);
                 UserService.updateUser($rootScope.currentUser._id, $rootScope.currentUser)
                     .then(function () {
                         $location.path('/beer/'+beerId);

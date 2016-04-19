@@ -19,7 +19,8 @@ module.exports = function() {
             token: String
         },
         favoriteBeers: [String],
-        favoriteBreweries: [String]
+        favoriteBreweries: [String],
+        adminBreweries: [String]
     }, {collection: 'user'});
     return UserSchema;
 };
