@@ -7,6 +7,7 @@
     function BeerDetailController(brewDBService, $location, $routeParams) {
         var vm = this;
         var beerId = $routeParams.id;
+        vm.favorite = favorite;
 
         function init(){
             brewDBService.getBeerById(beerId)
@@ -16,5 +17,9 @@
                 });
         }
         return init();
+
+        function favorite(){
+            vm.favorited = !vm.favorited;
+        }
     }
 })();
