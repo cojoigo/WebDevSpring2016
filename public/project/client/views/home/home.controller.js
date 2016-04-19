@@ -21,7 +21,7 @@
             if (item.type == 'beer'){
                 $location.path('/beer/'+item.id);
             }
-            else {
+            else if (item.type == 'brewery') {
                 $location.path('/brewery/'+item.id);
             }
         }

@@ -101,3 +101,12 @@ body { padding-top: 70px; }
     width: 10em;
     height: 10em;
 }
+
+#footer {
+    position:fixed;
+    bottom:0;
+    right:0;
+    height:30px;
+    width:100%;
+    background:#888;
+}
