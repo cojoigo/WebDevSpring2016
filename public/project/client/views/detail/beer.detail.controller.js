@@ -16,17 +16,17 @@
                     vm.beer = ret.data;
                     $location.path('/beer/'+beerId);
                     if (!$rootScope.currentUser) return;
-                    if ($rootScope.currentUser.favorites.indexOf(vm.beer.name) >= 0){
-                        console.log($rootScope.currentUser.favorites.indexOf({name: vm.beer.name, id: vm.beer.id, type: "beer"}));
-                        vm.favorited = 1;
+                    for (var i in $rootScope.currentUser.favorites) {
+                        if ($rootScope.currentUser.favorites[i].name == vm.beer.name) {
+                            vm.favorited = 1;
+                        }
                     }
                 });
         }
         return init();
 
         function favorite(){
-            console.log({name: vm.beer.name, id: vm.beer.id, type: "beer"});
-            if ($rootScope.currentUser.favorites.indexOf({name: vm.beer.name, id: vm.beer.id, type: "beer"}) < 0){
+            if (!vm.favorited){
                 UserService.userLikes($rootScope.currentUser._id, {name: vm.beer.name, id: vm.beer.id, type: "beer"})
                     .then(function () {
                         $location.path('/beer/'+beerId);
@@ -34,7 +34,7 @@
                     });
             }
             else {
-                UserService.userLikes($rootScope.currentUser._id, {name: vm.beer.name, id: vm.beer.id, type: "beer"})
+                UserService.userDislikes($rootScope.currentUser._id, {name: vm.beer.name, id: vm.beer.id, type: "beer"})
                     .then(function () {
                         $location.path('/beer/'+beerId);
                         vm.favorited = 0;

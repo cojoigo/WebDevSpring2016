@@ -52,21 +52,15 @@ module.exports = function(){
 
     function userLikes (userId, object) {
         var deferred = q.defer();
-        // find the user
         UserModel.findById(userId, function (err, doc) {
-            // reject promise if error
             if (err) {
                 deferred.reject(err);
             } else {
-                // add movie id to user likes
-                console.log(object);
                 doc.favorites.push(object);
-                // save user
                 doc.save (function (err, doc) {
                     if (err) {
                         deferred.reject(err);
                     } else {
-                        // resolve promise with user
                         deferred.resolve (doc);
                     }
                 });
@@ -77,20 +71,19 @@ module.exports = function(){
 
     function userDislikes (userId, object) {
         var deferred = q.defer();
-        // find the user
         UserModel.findById(userId, function (err, doc) {
-            // reject promise if error
             if (err) {
                 deferred.reject(err);
             } else {
-                // add movie id to user likes
-                doc.favorites.id(object.id).remove();
-                // save user
+                for (i in doc.favorites){
+                    if (doc.favorites[i].id == object.id) {
+                        doc.favorites.splice(i, 1);
+                    }
+                }
                 doc.save (function (err, doc) {
                     if (err) {
                         deferred.reject(err);
                     } else {
-                        // resolve promise with user
                         deferred.resolve (doc);
                     }
                 });
