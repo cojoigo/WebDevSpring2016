@@ -10,12 +10,6 @@
         vm.searchBeer = searchBeer;
 
         function init(){
-            /*brewDBService.searchBeers({q: "allagash"})
-                .then(function(beerList) {
-                    //debugger
-                    vm.beers = beerList.data;
-                    $location.path('/beer');
-                });*/
         }
         return init();
 

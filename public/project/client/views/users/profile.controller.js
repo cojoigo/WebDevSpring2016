@@ -14,6 +14,7 @@
         function init(){
             vm.$location = $location;
             vm.user = $rootScope.currentUser;
+            console.log(vm.user.roles.indexOf("admin"));
         }
         return init();
 

@@ -10,6 +10,11 @@ module.exports = function(app, model) {
     app.get("/api/project/brewery/breweries", getBreweryByIds);
     app.get("/api/project/brewery/:id", getBreweryById);
     app.post("/api/project/brewery", getBreweryByParams);
+    app.delete("/api/project/brewery/:breweryId", deleteBreweryById);
+    app.post("/api/project/user/:userId/brewery", createBreweryForUser);
+    app.put("/api/project/brewery/:breweryId", updateBreweryById);
+    app.get("/api/project/user/:userId/brewery", findAllBreweriesForUser);
+    app.get("/api/project/brewery/:breweryName", findBreweryByName);
 
     function searchBeers(req, res){
         var params = req.body;
@@ -108,5 +113,78 @@ module.exports = function(app, model) {
             .then(function (list) {
             res.json(list);
         });
+    }
+
+    ///////////
+
+    function findAllBreweriesForUser(req, res){
+        var userId = req.params.userId;
+        model.findAllBreweriesForUser(userId).then(
+            function (doc) {
+                res.json(doc);
+            },
+            // send error if promise rejected
+            function ( err ) {
+                res.status(400).send(err);
+            }
+        );
+    }
+
+    function deleteBreweryById(req, res){
+        var breweryId = req.params.breweryId;
+        model.deleteBrewery(breweryId)
+            .then(
+                function (doc) {
+                    res.json(doc);
+                },
+                // send error if promise rejected
+                function ( err ) {
+                    res.status(400).send(err);
+                }
+            );
+    }
+
+    function findBreweryByName(req, res){
+        var breweryName = req.params.breweryName;
+        model.findBreweryByName(breweryName)
+            .then(
+                function (doc) {
+                    res.json(doc);
+                },
+                // send error if promise rejected
+                function ( err ) {
+                    res.status(400).send(err);
+                }
+            );
+    }
+
+    function createBreweryForUser(req, res){
+        var brewery = req.body;
+        var breweryId = req.params.userId;
+        model.createBreweryForUser(breweryId, brewery)
+            .then(
+                function (doc) {
+                    res.json(doc);
+                },
+                // send error if promise rejected
+                function ( err ) {
+                    res.status(400).send(err);
+                }
+            );
+    }
+
+    function updateBreweryById(req, res){
+        var brewery = req.body;
+        var breweryId = req.params.breweryId;
+        model.updateBrewery(breweryId, brewery)
+            .then(
+                function (doc) {
+                    res.json(doc);
+                },
+                // send error if promise rejected
+                function ( err ) {
+                    res.status(400).send(err);
+                }
+            );
     }
 };

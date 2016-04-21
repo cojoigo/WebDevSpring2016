@@ -1,4 +1,24 @@
+var q = require("q");
+var mongoose = require('mongoose');
+
 module.exports = function(brewdb) {
+
+    var objectSchema = new mongoose.Schema({
+        location: String,
+        description: String,
+        other: [String]
+    });
+
+    var BrewerySchema = new mongoose.Schema(
+        {
+            name: String,
+            detail: [objectSchema],
+            userId: String
+        }, {collection: "BreweryModel"});
+
+    var BreweryModel = mongoose.model('BreweryModel', BrewerySchema);
+
+
     return {
         searchBeers : searchBeers,
         searchBreweries : searchBreweries,
@@ -11,7 +31,12 @@ module.exports = function(brewdb) {
         getBreweryById : getBreweryById,
         getBreweryByIds : getBreweryByIds,
         getBreweryByParams : getBreweryByParams,
-        getBreweriesByLocation : getBreweriesByLocation
+        getBreweriesByLocation : getBreweriesByLocation,
+        deleteBrewery: deleteBrewery,
+        createBreweryForUser: createBreweryForUser,
+        updateBrewery: updateBrewery,
+        findAllBreweriesForUser: findAllBreweriesForUser,
+        findBreweryByName: findBreweryByName
     };
 
 
@@ -74,7 +99,84 @@ module.exports = function(brewdb) {
                     });
                 });
             });*/
-            return http.get("http://api.brewerydb.com/v2/locations?region="+location+apiKey);
+            return http.get("http://api.brewerydb.com/v2/locations?region="+location.region+"&locality="+location.locality+apiKey);
        // });
+    }
+
+    // Form editing
+    function createBrewery(brewery){
+        var deferred = q.defer();
+        BreweryModel.create(brewery, function (err, doc) {
+            if (err) {
+                deferred.reject(err);
+            } else {
+                deferred.resolve(doc);
+            }
+        });
+        return deferred.promise;
+    }
+
+    function findAllBreweriesForUser(userId){
+        var deferred = q.defer();
+        BreweryModel.find(
+            { userId: userId },
+            function(err, doc) {
+                if (err) {
+                    deferred.reject(err);
+                } else {
+                    deferred.resolve(doc);
+                }
+            });
+        return deferred.promise;
+    }
+
+    function createBreweryForUser(userId, brewery){
+        brewery.userId = userId;
+        return createBrewery(brewery);
+    }
+
+    function updateBrewery(breweryId, brewery){
+        var deferred = q.defer();
+        BreweryModel.findByIdAndUpdate(breweryId, brewery, function (err, doc) {
+            if (err) {
+                deferred.reject(err);
+            } else {
+                deferred.resolve(doc);
+            }
+        });
+        return deferred.promise;
+    }
+
+    function deleteBrewery(breweryId){
+        var deferred = q.defer();
+        BreweryModel.findById(breweryId, function (err, doc) {
+            if (err) {
+                deferred.reject(err);
+            } else {
+                doc.remove();
+                BreweryModel.find(function (err, doc) {
+                    if (err) {
+                        deferred.reject(err);
+                    } else {
+                        deferred.resolve(doc);
+                    }
+                });
+            }
+        });
+        return deferred.promise;
+    }
+
+    function findBreweryByName(name){
+        var deferred = q.defer();
+        BreweryModel.find(
+            { name: name },
+            function(err, doc) {
+                if (err) {
+                    deferred.reject(err);
+                } else {
+                    deferred.resolve(doc);
+                }
+            });
+        return deferred.promise;
     }
 };

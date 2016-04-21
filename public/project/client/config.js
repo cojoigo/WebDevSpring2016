@@ -69,17 +69,25 @@
                         loggedin: checkAdmin
                     }
                 })
+                .when("/AdminBrewery", {
+                    templateUrl: "views/admin/admin.brewery.view.html",
+                    controller: "AdminBreweryController",
+                    controllerAs: "model",
+                    resolve: {
+                        loggedin: checkCurrentUser
+                    }
+                })
+                .when("/AdminBrewery/:breweryId", {
+                    templateUrl: "views/admin/admin.brewery.details.view.html",
+                    controller: "AdminBreweryDetailController",
+                    controllerAs: "model",
+                    resolve: {
+                        loggedin: checkCurrentUser
+                    }
+                })
                 .when("/favorites", {
                     templateUrl: "views/favorites/favorites.view.html",
                     controller: "FavoritesController",
-                    controllerAs: "model",
-                    resolve: {
-                        loggedin: checkLoggedin
-                    }
-                })
-                .when("/AdminBreweries", {
-                    templateUrl: "views/admin/AdminBreweries.view.html",
-                    controller: "AdminBreweriesController",
                     controllerAs: "model",
                     resolve: {
                         loggedin: checkLoggedin

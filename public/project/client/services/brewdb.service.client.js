@@ -10,10 +10,15 @@
             searchAll : searchAll,
             getAllCategories : getAllCategories,
             getCategoryById : getCategoryById,
-           // getBreweriesByLocation : getBreweriesByLocation,
+            getBreweriesByLocation : getBreweriesByLocation,
             getBreweryByParams : getBreweryByParams,
             getBeerById : getBeerById,
-            getBreweryById : getBreweryById
+            getBreweryById : getBreweryById,
+            createBreweryForUser: createBreweryForUser,
+            findAllBreweriesForUser: findAllBreweriesForUser,
+            deleteBreweryById: deleteBreweryById,
+            updateBreweryById: updateBreweryById,
+            findBreweryByName: findBreweryByName
         };
         return api;
 
@@ -38,11 +43,26 @@
         function getBreweryById(id) {
             return $http.get("/api/project/brewery/"+id);
         }
-       // function getBreweriesByLocation(location) {
-       //     return $http.get("/api/project/brewery?location="+location);
-       // }
+        function getBreweriesByLocation(location) {
+            return $http.get("/api/project/brewery?location="+location);
+        }
         function getBreweryByParams(params) {
             return $http.post("/api/project/brewery",params);
+        }
+        function createBreweryForUser(userId, brewery){
+            return $http.post("/api/project/user/"+userId+"/brewery", brewery);
+        }
+        function findAllBreweriesForUser(userId){
+            return $http.get("/api/project/user/"+userId+"/brewery");
+        }
+        function deleteBreweryById(breweryId){
+            return $http.delete("/api/project/brewery/"+breweryId);
+        }
+        function findBreweryByName(breweryName){
+            return $http.get("/api/project/brewery/"+breweryName);
+        }
+        function updateBreweryById(breweryId, brewery){
+            return $http.put("/api/project/brewery/"+breweryId, brewery);
         }
     }
 })();
