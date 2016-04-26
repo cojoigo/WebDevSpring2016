@@ -93,6 +93,22 @@
                         loggedin: checkLoggedin
                     }
                 })
+                .when("/users", {
+                    templateUrl: "views/users/user.search.view.html",
+                    controller: "UserSearchController",
+                    controllerAs: "model",
+                    resolve: {
+                        loggedin: checkCurrentUser
+                    }
+                })
+                .when("/users/:username", {
+                    templateUrl: "views/users/user.favorites.view.html",
+                    controller: "UserFavoritesController",
+                    controllerAs: "model",
+                    resolve: {
+                        loggedin: checkCurrentUser
+                    }
+                })
                 .otherwise({
                     redirectTo: "/home"
                 });
